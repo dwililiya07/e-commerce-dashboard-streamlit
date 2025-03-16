@@ -50,7 +50,7 @@ st.title(":convenience_store: Brazilian E-Commerce Dashboard")
 st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 
 # load the data
-file_path ='D:/Laskar AI/Dicoding_Projects/submission_analisa_data/dashboard/master_orders_2018.csv' 
+file_path ='dashboard/master_orders_2018.csv' 
 master_df = pd.read_csv(file_path, encoding='utf-8')
 
 # Convert data types
